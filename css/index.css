@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+/*Header*/
+header {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding: 0px 15px;
+    z-index: 10;
+}
+header .navbar {
+    display: flex;
+}
+header .navbar-left {
+    flex: 3;  
+}
+header .navbar-right {
+    flex: 1;  
+}
+header .navbar ul li {
+    display: inline-block;
+}
+header .navbar ul li a {
+    padding: 18px;
+    color: black;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header .navbar ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+header .navbar ul li a:hover {
+    color: #928383;
+}
+
+.navbar-right img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3px;
+}
+.navbar-right img:hover {
+    background-color: #F7E926;
+}
+.navbar-right span {
+    color: #2CB700;
+}
+.navbar-right span:hover {
+    color: black;
+}
+.logo-navbar img {
+    height: 38px;
+    position: absolute;
+    top: 28px;
+    margin-left: 645px;
+    
+}
+.hero-image img {
+    margin-top: 108px;
+    width: 1442px;
+    margin-bottom: 48px;
+}
+
+/*Intro text, image and button*/
+
+.intro {
+    display: flex;
+}
+.intro-text {
+    flex: 1;
+    margin-right: 50px;
+    margin-left: 120px;
+}
+.intro-image {
+    flex: 1;
+    
+}
+.intro-image img {
+    width: 450px;
+}
+.intro-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.shop-now-button a {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.shop-now-button a:hover {
+    background-color: #2CB700;
+    color: black;
+}
+
+/*Popular Product*/
+.popular-product {
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.heading-text h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.sub-heading h2 {
+    font-size: 20px;
+    color: #928383;
+    letter-spacing: 2px;
+}
+.product-name img {
+    width: 10px;
+}
+.product-images a img {
+    height: 180px;
+}
+.products {
+    display: flex;
+    margin-left: 108px;
+    justify-content: space-between;
+    margin-right: 108px;
+
+}
+.product-image {
+    flex: 1;
+   
+}
+.product-image2 {
+    flex: 1;
+    
+}
+.product-image3 {
+    flex: 1;
+}
+.product-image4 {
+    flex: 1;
+}
+.products p {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.price h3 {
+    margin-bottom: 18px;
+}
+.price a {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.price a:hover {
+    background-color: #2CB700;
+    color: black;
+}
